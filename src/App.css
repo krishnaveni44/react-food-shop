@@ -12,11 +12,14 @@
 button {
   font-family: 'Montserrat', sans-serif;
 }
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f8f8f8;
-}
-
+body{background-color: #fff;font-family:'Montserrat', sans-serif;}
+.item{background:#f6f6f6 !important;box-shadow:3px 3px 3px #dadada;transition:all .5s;}
+.item:hover{box-shadow:0 0 0 #fff;transition:all .5s;}
+.content-main button{background:#ff613e !important;border-radius:0 25px 0 25px !important;}
+.btnCartCount{border-radius:35px !important}
+.btnCartCount .count{left:12px !important;top:9px !important}
+.btnCartCount i{left:5px;position:relative;top:5px}
+.foot_desc-price{color:#f46d00}
 .container {
   max-width: 1140px;
   margin: 0 auto;
